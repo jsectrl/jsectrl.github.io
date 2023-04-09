@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 h1, 
 h2,
 h3 {
@@ -22,18 +23,55 @@ ul{
     list-style-type: none;
 }
 
+.nav-container {
+    border: 2px solid red;
+    padding: 0 10% 0 10%;
+}
+
 #nav-menu {
-    width: 100%;
-    height:100%;
-    padding: 20% 0 20% 0;
-    background-color: snow;
     display: flex;
     flex-direction: row;
-    float: right;
+    justify-content: right;
+}
+
+#nav-menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-menu > li {
+    padding: 0 5px 0 5px;
 }
 
 .main-container {
-    height: 100px;
-    width: 100px;
-    background-color: snow;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.side-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 10%;
+    border: 2px solid yellow;
+}
+
+#links {
+    border: 2px solid purple;
+}
+
+#links > li {
+    padding: 12px;
+}
+
+.main-section {
+    border: 2px solid green;
+    color: blue;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
 }
