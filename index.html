@@ -4,28 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.cdnfonts.com/css/din-condensed"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <script src="script/main.js"></script>
-    <title>Jse's Corner</title>
+    <title>Jse's Portfolio</title>
   </head>
   <body>
     <div class="main-container">
       <header class="menu-pane">
-        <span id="name-tag">Jose G</span>
+        <div class="intro-block">
+          <span id="name-tag" data-text="Jse">Jse</span>
+          <span id="name-subtag">University Student</span>
+        </div>
         <ul class="menu-block">
-          <li><a class="menu-item" href="#about">About</a></li>
-          <li><a class="menu-item" href="#experience">Experience</a></li>
-          <li><a class="menu-item" href="#projects">Projects</a></li>
-          <li><a class="menu-item" href="#contact">Contact Me!</a></li>
+          <li><a class="menu-item" data-text="&nbsp;About" href="#about">&nbsp;About</a></li>
+          <li><a class="menu-item" data-text="&nbsp;Experience" href="#experience">&nbsp;Experience</a></li>
+          <li><a class="menu-item" data-text="&nbsp;Projects" href="#projects">&nbsp;Projects</a></li>
+          <li><a class="menu-item" data-text="&nbsp;Contact" href="#contact">&nbsp;Contact</a></li>
         </ul>
         <div class="links-block">
           <a
@@ -38,6 +37,7 @@
             target="_blank"
             class="fa fa-tumblr fa-2x"
           ></a>
+        </div>  
       </header>
       <main class="main-pane">
         <div class="section-pane">
